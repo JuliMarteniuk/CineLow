@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificanos</title>
+</head>
+<body>
+    <h1>Calificanos</h1>
+    <form method="post" action="#" enctype="multipart/form-data">
+        <fieldset>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" id="nombre" maxlength="15" minlength="3" required/><br>
+
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido" id="apellido" maxlength="20" minlength="3" required/><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" maxlength="30" minlength="10" required/><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="util">Como calificarias nuestra página?</label><br>
+            <input type="radio" name="1" value="uno" id="uno"/>
+            <label for="uno">1</label>
+            <input type="radio" name="2" value="dos" id="dos"/>
+            <label for="dos">2</label>
+            <input type="radio" name="3" value="tres" id="tres"/>
+            <label for="tres">3</label>
+            <input type="radio" name="4" value="cuatro" id="cuatro"/>
+            <label for="cuatro">4</label>
+            <input type="radio" name="5" value="cinco" id="cinco"/>
+            <label for="cinco">5</label><br>
+            <input type="radio" name="6" value="seis" id="seis"/>
+            <label for="seis">6</label>
+            <input type="radio" name="7" value="siete" id="siete"/>
+            <label for="siete">7</label>
+            <input type="radio" name="8" value="ocho" id="ocho"/>
+            <label for="ocho">8</label>
+            <input type="radio" name="9" value="nueve" id="nueve"/>
+            <label for="nueve">9</label>
+            <input type="radio" name="10" value="diez" id="diez"/>
+            <label for="diez">10</label><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="opinion">Te gustaria darnos alguna opinion sobre la pagina?</label><br><br>
+            <textarea name="op" id="opinion" cols="25" rows="10">Puede ser algo que te gusto o algo que sentis que falta, tu opinion nos importa!!</textarea><br>
+        </fieldset>
+        <input type="submit" name="enviar" value="enviar" id="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>

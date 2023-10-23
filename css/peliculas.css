@@ -1,0 +1,96 @@
+/* .body{
+    display: flex;
+}
+
+.descripcion{
+    top: 20%;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.imagenes{
+    margin: 2px;
+}
+
+.dias{
+    width: 9em;
+    height: 3em;
+    position: absolute;
+    top: 48% ;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: rgb(178, 178, 178);
+}
+
+#caja1,
+#caja2,
+#caja3,
+#caja4,
+#caja5,
+#caja6,
+#caja7{
+    width: 7em;
+    height: 3em;
+    position: absolute;
+    top: 53% ;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#caja1{
+    left: 17%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja2{
+    left: 28%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja3{
+    left: 39%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja4{
+    left: 51%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja5{
+    left: 62%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja6{
+    left: 73%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+
+#caja7{
+    left: 84%;
+    color: black;
+    text-align: center;
+    margin: center;
+}
+ */

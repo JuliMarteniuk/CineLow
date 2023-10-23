@@ -1,0 +1,99 @@
+.com1{
+    font-size: xx-large;
+    animation: infinite alternate reverse;
+}
+
+.img1{
+    top: 20%;
+    left: 2%;
+    height: 300px;
+    width: 245px;
+}
+
+.img2{
+    top: 20%;
+    left: 22%;
+    height: 300px;
+    width: 245px;
+}
+
+.img3{
+    top: 20%;
+    left: 42%;
+    height: 300px;
+    width: 245px;
+}
+
+.img4{
+    top: 20%;
+    left: 62%;
+    height: 300px;
+    width: 245px;
+}
+
+.img5{
+    top: 60%;
+    left: 2%;
+    height: 300px;
+    width: 245px;
+}
+
+.img6{
+    top: 60%;
+    left: 22%;
+    height: 300px;
+    width: 245px;
+}
+
+.img7{
+    top: 60%;
+    left: 42%;
+    height: 300px;
+    width: 245px;
+}
+
+.img8{
+    top: 60%;
+    left: 62%;
+    height: 300px;
+    width: 245px;
+}
+
+.slider{
+    width: 1200px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+
+}
