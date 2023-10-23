@@ -1,1 +1,42 @@
- 
+body {
+    background: linear-gradient(to bottom, #f34fa1, #f6ed79);
+}
+
+body h1{
+    text-align: center;
+}
+.trailers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+  
+.fila {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Espacio entre filas */
+}
+
+.filaUno h2{
+    text-align: center;
+}
+
+body h1{
+    text-align: center;
+}
+  
+.video {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra horizontalmente el texto dentro del div */
+    margin: -5px; /* Espacio entre imágenes */
+    width: 360px;
+    height: 215px;
+}
+
+.video h2 {
+    margin: 5px 0; /* Espacio entre la imagen y el título */
+}
