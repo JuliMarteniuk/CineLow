@@ -1,4 +1,4 @@
-/* .body{
+.body{
     display: flex;
 }
 
@@ -22,8 +22,13 @@
     text-align: center;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 10px;
-    background-color: rgb(178, 178, 178);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.741);
+    
+}
+
+.letra{
+    color: white;
 }
 
 #caja1,
@@ -93,4 +98,4 @@
     text-align: center;
     margin: center;
 }
- */
+

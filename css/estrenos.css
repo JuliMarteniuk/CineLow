@@ -1,5 +1,10 @@
+
 body {
     background: linear-gradient(to bottom, #d768ff, #fa86c0);
+}
+
+divboton{
+    display: flex;
 }
 .estrenos {
     display: flex;
@@ -32,23 +37,19 @@ body {
 .imagen h2 {
     margin: 5px 0; 
 }
+
 .boton {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #e41b9a; /* Color de fondo del botón */
+    padding: 15px 25px;
+    background-color: #b6147ba3; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     text-decoration: none;
     border: none;
     border-radius: 5px; /* Borde redondeado */
     font-size: 16px;
-    margin: 10px; /* Espacio entre botones */
+    margin-top: 2%;
+    margin-left: 85%;
     cursor: pointer;
     transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */
+    
   }
-  
-.boton:hover {
-    background-color: #af0a73; /* Color de fondo al pasar el ratón por encima */
-}
-.div{
-    margin: auto;
-}
