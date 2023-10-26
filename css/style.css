@@ -59,7 +59,7 @@
     width: 245px;
 }
 
-.slider{
+/* .slider{
     width: 1200px;
     height: auto;
     margin: 50px auto 0;
@@ -96,5 +96,16 @@
     75%{margin-left: -300%;}
     95%{margin-left: -300%;}
 
+} */
+
+.carousel-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-block{
+    text-align: center;
+    margin: auto;
 }
 
