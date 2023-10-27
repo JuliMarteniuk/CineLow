@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineLow</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineLow</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>CINE LOW</h1>
-    <div id="carouselExample" class="carousel">
-        <div class="carousel-inner w-60 col-md-6 mx-auto">
-          <div class="carousel-item active w-60">
-            <img src="imagenes/slider2.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/slider7.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/slider3.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/slider5.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/slider4.jpg" class="d-block w-50"  alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/slider6.jpg" class="d-block w-50" alt="...">
+  <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CineLOW</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Pagina Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/precios.html">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/productos.html">Productos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="paginas/estrenos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Estrenos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="paginas/estrenos.html">Estrenos</a></li>
+                <li><a class="dropdown-item" href="paginas/trailers.html">Trailers Estrenos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paginas/calificanos.html">Calificanos</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </nav>
+  <!-- <h1>CINE LOW</h1> -->
+  <div id="carouselExample" class="carousel">
+    <div class="carousel-inner w-60 col-md-6 mx-auto">
+      <div class="carousel-item active w-60">
+        <img src="imagenes/slider2.jpg" class="d-block w-50" alt="...">
       </div>
-    <!-- <div id="carouselExample" class="carousel slide">
+      <div class="carousel-item">
+        <img src="imagenes/slider7.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/slider3.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/slider5.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/slider4.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/slider6.jpg" class="d-block w-50" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item">
             <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: Primera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
@@ -61,7 +96,7 @@
         </button>
       </div> -->
 
-    <!-- <div id="carouselExample" class="carousel slide pointer-event">
+  <!-- <div id="carouselExample" class="carousel slide pointer-event">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: Primera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
@@ -82,45 +117,52 @@
           <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
         </button>
     </div> -->
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html"><strong>Pagina Principal</strong></a>
-            </li>
-            <li>
-                <a href="paginas/precios.html"><strong>Precios</strong></a>
-            </li>
-            <li>
-                <a href="paginas/productos.html"><strong>Productos</strong></a>
-            </li>
-            <li>
-                <a href="paginas/estrenos.html"><strong>Estrenos</strong></a>
-            </li>
-        </ul>
-    </nav>
-    <h1 id="comentario" class="com1">Mira nuestras peliculas disponibles</h1>
-
+  <!-- <nav>
     <ul>
-        <li >
-            <a href="paginas/home/pelicula1.html"><img src="imagenes/los pitufos.jpg" alt="Los Pitufos" id="imagenes" class="img1"></a>
-
-            <a href="paginas/home/pelicula2.html"><img src="imagenes/enrredados.jpg" alt="Enrredados" id="imagenes" class="img2"></a>
-
-            <a href="paginas/home/pelicula3.html"><img src="imagenes/ratatouille.jpg" alt="Ratatouille" id="imagenes" class="img3"></a>
-
-            <a href="paginas/home/pelicula4.html"><img src="imagenes/monstruos MU university.jpg" alt="Monstruos MU University" id="imagenes" class="img4"></a>
-        </li>
-        <li>
-            <a href="paginas/home/pelicula5.html"><img src="imagenes/UP.jpg" alt="UP" id="imagenes" class="img5"></a>
-
-            <a href="paginas/home/pelicula6.html"><img src="imagenes/toy story.jpg" alt="Toy Story" id="imagenes" class="img6"></a>
-
-            <a href="paginas/home/pelicula7.html"><img src="imagenes/elementos.jpg" alt="Elementos" id="imagenes" class="img7"></a>
-
-            <a href="paginas/home/pelicula8.html"><img src="imagenes/cars.jpg" alt="Cars" id="imagenes" class="img8"></a>
-        </li>
+      <li>
+        <a href="index.html"><strong>Pagina Principal</strong></a>
+      </li>
+      <li>
+        <a href="paginas/precios.html"><strong>Precios</strong></a>
+      </li>
+      <li>
+        <a href="paginas/productos.html"><strong>Productos</strong></a>
+      </li>
+      <li>
+        <a href="paginas/estrenos.html"><strong>Estrenos</strong></a>
+      </li>
     </ul>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  </nav> -->
+  <h1 id="comentario" class="com1">Mira nuestras peliculas disponibles</h1>
+
+  <ul>
+    <li>
+      <a href="paginas/home/pelicula1.html"><img src="imagenes/los pitufos.jpg" alt="Los Pitufos" id="imagenes"
+          class="img1"></a>
+
+      <a href="paginas/home/pelicula2.html"><img src="imagenes/enrredados.jpg" alt="Enrredados" id="imagenes"
+          class="img2"></a>
+
+      <a href="paginas/home/pelicula3.html"><img src="imagenes/ratatouille.jpg" alt="Ratatouille" id="imagenes"
+          class="img3"></a>
+
+      <a href="paginas/home/pelicula4.html"><img src="imagenes/monstruos MU university.jpg"
+          alt="Monstruos MU University" id="imagenes" class="img4"></a>
+    </li>
+    <li>
+      <a href="paginas/home/pelicula5.html"><img src="imagenes/UP.jpg" alt="UP" id="imagenes" class="img5"></a>
+
+      <a href="paginas/home/pelicula6.html"><img src="imagenes/toy story.jpg" alt="Toy Story" id="imagenes"
+          class="img6"></a>
+
+      <a href="paginas/home/pelicula7.html"><img src="imagenes/elementos.jpg" alt="Elementos" id="imagenes"
+          class="img7"></a>
+
+      <a href="paginas/home/pelicula8.html"><img src="imagenes/cars.jpg" alt="Cars" id="imagenes" class="img8"></a>
+    </li>
+  </ul>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 <!-- Autoras Julia Marteniuk y Tatiana Alvarez 25/10/2023 -->
+
 </html>
