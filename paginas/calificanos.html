@@ -17,6 +17,14 @@
             <label for="apellido">Apellido:</label><br>
             <input type="text" name="apellido" id="apellido" maxlength="20" minlength="3" required/><br>
 
+            <label>Sexo</label><br>
+            <input type="radio" checked name="sexo" value="femenino" id="fem" required/>
+            <label for="fem">Femenino</label><br>
+            <input type="radio" name="sexo" value="masculino" id="masc" required/>
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="sexo" value="otro" id="otro" required/>
+            <label for="otro">Otro</label><br>
+
             <label for="email">Email:</label><br>
             <input type="email" name="email" id="email" maxlength="30" minlength="10" required/><br><br>
         </fieldset>
@@ -40,25 +48,31 @@
             <label for="ocho">8</label>
             <input type="radio" name="9" value="nueve" id="nueve"/>
             <label for="nueve">9</label>
-            <input type="radio" name="10" value="diez" id="diez"/>
+            <input type="radio" checked name="10" value="diez" id="diez"/>
             <label for="diez">10</label><br><br>
         </fieldset>
         <fieldset>
             <label for="opinion">Te gustaria darnos alguna opinion sobre la pagina?</label><br><br>
-            <textarea name="op" id="opinion" cols="25" rows="10">Puede ser algo que te gusto o algo que sentis que falta, tu opinion nos importa!!</textarea><br>
+            <textarea name="op" id="opinion" cols="25" rows="10">Puede ser algo que te gusto o algo que sentis que nos falta, tu opinion nos importa!!</textarea><br>
         </fieldset>
-        <input type="submit" name="enviar" value="enviar" id="enviar">
+        <fieldset>
+            <input type="checkbox" name="notificaciones" value="notific" id="noti">
+            <label for="noti">Enviarme notificaciones si se actualizan las carteleras y/o los precios</label>
+        </fieldset>
+
+        <input type="submit" name="enviar" value="enviar" id="enviar" >
         <input type="reset" value="borrar">
         
     </form>
     </fieldset>
-    <nav>
+    <p><strong>Volver a</strong></p>
+    <nav> 
         <ul>
             <li>
                 <a href="../index.html"><strong>Pagina Principal</strong></a>
             </li>
             <li>
-                <a href="../paginas/precios.html"><strong>Precios Entradas</strong></a>
+                <a href="../paginas/precios.html"><strong>Precios</strong></a>
             </li>
             <li>
                 <a href="../paginas/productos.html"><strong>Productos</strong></a>
