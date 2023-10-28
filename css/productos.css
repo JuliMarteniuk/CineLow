@@ -5,44 +5,149 @@ div{
 .texto{
     font-size: x-large;
     font-family: fantasy;
+    margin-top: 20px;
 }
 
 .texto2{
     font-size: medium;
     font-family: fantasy;
+    margin-bottom: 20px;
+}
+
+.tipos{
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .pochoclogrande{
-    top: 20%;
-    left: 30%;
+    margin-top: 20px;
     width: 160px;
     height: 190px;
 }
+.grande{
+    margin-left: 60px; 
+    font-size: medium;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
 
 .pochoclochico{
-    top: 20%;
-    left: 60%;
     width: 130px;
     height: 160px;
+    margin-top: 23px;
+}
+.chico{
+    font-size: medium;
+    font-family: fantasy;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .gaseosagrande{
-    top: 60%;
-    left: 30%;
-    width: 100px;
+    width: 180px;
     height: 190px;
+    margin-top: 20px;
 }
 
 .gaseosamediana{
-    top: 60%;
-    left: 60%;
-    width: 80px;
+    width: 140px;
     height: 150px;
+    margin-top: 38px;
 }
 
 .gaseosachica{
-    top: 60%;
-    left: 90%;
-    width: 60px;
+    width: 100px;
     height: 110px;
+    margin-top: 56px;
+}
+
+.nachosgrandes{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 150px;
+    margin-left: 10px;
+}
+.papasgrandes{
+    width: 250px; 
+    height: 150px;
+    margin-bottom: 150px;
+    
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.fila {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+.nachoschicos{
+    margin-top: 33px;
+    width: 130px; 
+    height: 100px;
+
+}
+.papaschicas{
+    margin-top: 25px;
+    width: 180px; 
+    height: 100px;
+}
+.porcion1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    font-family: fantasy;
+}
+.porcion2{
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    
+}
+.porcion3{
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 100px;
+}
+.porcion4{
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.texto3{
+    margin-left: 70px; 
+    font-size: medium;
+    font-family: fantasy;
+    margin-top: 7px;
+}
+.texto4{
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 11px;
+}
+.texto5{
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 15px;
+}
+.adicional{
+    font-size: 20px;
+}
+.stock{
+    font-size: 20px;
+}
+.golosina{
+    font-size: medium;
+    font-family: fantasy;
+    font-size: 25px;
 }

@@ -1,10 +1,14 @@
 
-body {
+/*body {
     background: linear-gradient(to bottom, #d768ff, #fa86c0);
-}
+}*/
 
 divboton{
     display: flex;
+}
+body h1{
+    text-align: center;
+    margin-bottom: 30px;
 }
 .estrenos {
     display: flex;

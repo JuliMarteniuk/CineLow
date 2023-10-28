@@ -4,6 +4,7 @@ body {
 
 body h1{
     text-align: center;
+    margin-bottom: 30px;
 }
 .trailers {
     display: flex;
