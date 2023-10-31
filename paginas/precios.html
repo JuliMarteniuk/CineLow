@@ -6,7 +6,7 @@
     <title>Precios-CineLOW</title>
     <link rel="shortcut icon" href="../imagenes/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../css/precios.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-primary">
@@ -42,101 +42,91 @@
           </div>
         </div>
       </nav>
-    <!-- <nav>
-        <ul>
-            <li>
-                <a href="../index.html"><strong>Pagina Principal</strong></a>
-            </li>
-            <li>
-                <a href="../paginas/precios.html"><strong>Precios</strong></a>
-            </li>
-            <li>
-                <a href="../paginas/productos.html"><strong>Productos</strong></a>
-            </li>
-            <li>
-                <a href="../paginas/estrenos.html"><strong>Estrenos</strong></a>
-            </li>
-        </ul>
-    </nav> -->
-    <h1><strong>ENTRADAS</strong></h1>
-    <Table border="1" summary="tabla precios entradas">
-        <caption>Precios Entradas</caption>
-        <tr>
-            <th>Sala</th>
-            <th>Precio</th>
-            <th>Promos</th>
-        </tr>
-        <tr>
-           <td>2D</td>
-           <td>$750</td>
-           <td>x2 $1400 <br> x4 $2800</td>
-        </tr>
-        <tr>
-            <td>3D</td>
-           <td>$850</td>
-           <td>x2 $1600 <br> x4 $3100</td>
-        </tr>
-        <tr>
-            <td>MS</td>
-           <td>$1000</td>
-           <td>x2 $1900 <br> x4 $3700</td>
-        </tr>
-        <tr>
-            <td>MS3D</td>
-           <td>$1400</td>
-           <td>x2 $2500 <br> x4 $5200</td>
-        </tr>
-        <tr>
-            <td>4D</td>
-           <td>$1800</td>
-           <td>x2 $3400 <br> x4 $7000</td>
-        </tr>
-    </Table>
-    <h1><strong>COMIDAS</strong></h1>
-    <p><u>Pochoclos:</u></p>
-    <ol>
-        <li>Chicos $800</li>
-        <li>Grandes $1200</li>
-    </ol>
-    <p><u>Bebidas:</u></p>
-    <ol>
-        <li>Vaso Chico $400</li>
-        <li>Vaso Mediano $550</li>
-        <li>Vaso Grande $700</li>
-    </ol>
-    <p><u>Bandeja de Papas Fritas o Nachos:</u></p>
-    <ol>
-        <li>Chica $1000</li>
-        <li>Grande $1400</li>
-        <li>Adicionales $300</li>
-    </ol>
-    <table border="1" summary="tabla combos comida">
+    <div class="precios_comida">
+        <h1><strong>ENTRADAS</strong></h1>
+        <Table border="1" summary="tabla precios entradas">
+            <tr>
+                <th>Sala</th>
+                <th>Precio</th>
+                <th>Promos</th>
+            </tr>
+            <tr>
+            <td>2D</td>
+            <td>$750</td>
+            <td>x2 $1400 <br> x4 $2800</td>
+            </tr>
+            <tr>
+                <td>3D</td>
+            <td>$850</td>
+            <td>x2 $1600 <br> x4 $3100</td>
+            </tr>
+            <tr>
+                <td>MS</td>
+            <td>$1000</td>
+            <td>x2 $1900 <br> x4 $3700</td>
+            </tr>
+            <tr>
+                <td>MS3D</td>
+            <td>$1400</td>
+            <td>x2 $2500 <br> x4 $5200</td>
+            </tr>
+            <tr>
+                <td>4D</td>
+            <td>$1800</td>
+            <td>x2 $3400 <br> x4 $7000</td>
+            </tr>
+        </Table>
         
-        <tr>
-            <th colspan="2"><strong>COMBOS COMIDA</strong></th>
-        </tr>
-        <tr>
-            <th>Combo 1:</th>
-            <td>Pochoclos Chicos + 2 Gaseosas Medianas a $1600</td>
-        </tr>
-        <tr>
-            <th>Combo 2:</th>
-            <td>Pochoclos Grandes + 2 Gaseosas Grandes a $2300</td>
-        </tr>
-        <tr>
-            <th>Combo 3:</th>
-            <td>Papas Fritas o Nachos Chicos + 2 Gaseosas Chicas + 2 adicionales a $2500</td>
-        </tr>
-    </table><br>
-    <p><u>Golosinas:</u></p>
-    <ol>
-        <li>Gomitas $350</li>
-        <li>Chocolates $500</li>
-        <li>Alfajores $400</li>
-        <li>Snack X350g $600</li>
-    </ol>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+        <h1><strong>COMIDAS</strong></h1>
+        <p><u>Pochoclos:</u></p>
+        <ul>
+            <li>Chicos $800</li>
+            <li>Grandes $1200</li>
+        </ul>
+        <p><u>Bandeja de Papas Fritas o Nachos:</u></p>
+        <ul>
+            <li>Chica $1000</li>
+            <li>Grande $1400</li>
+            <li>Adicionales $300</li>
+        </ul>
+        
+
+        <table border="1" summary="tabla combos comida">
+            
+            <tr>
+                <th colspan="2"><h3><strong>COMBOS COMIDA</strong></h3></th>
+            </tr>
+            <tr>
+                <th>Combo 1:</th>
+                <td>Pochoclos Chicos + 2 Gaseosas Medianas a $1600</td>
+            </tr>
+            <tr>
+                <th>Combo 2:</th>
+                <td>Pochoclos Grandes + 2 Gaseosas Grandes a $2300</td>
+            </tr>
+            <tr>
+                <th>Combo 3:</th>
+                <td>Papas Fritas o Nachos Chicos + 2 Gaseosas Chicas + 2 adicionales a $2500</td>
+            </tr>
+        </table><br>
+    
+        <h1><strong>BEBIDAS</strong></h1>
+        <ul>
+            <li>Vaso Chico $400</li>
+            <li>Vaso Mediano $550</li>
+            <li>Vaso Grande $700</li>
+        </ul>
+    
+        <h1><strong>GOLOSINAS</strong></h1>
+        <ul>
+            <li>Gomitas $350</li>
+            <li>Chocolates $500</li>
+            <li>Alfajores $400</li>
+            <li>Snack X350g $600</li>
+        </ul>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 <!-- Autoras Julia Marteniuk y Tatiana Alvarez 28/10/2023 -->
 </html>
