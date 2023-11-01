@@ -1,6 +1,6 @@
-.body{
+body{
     display: flex;
-    /* background-image: "../../imagenes/fondo-pelicula.jpg"; */
+    background: url(../imagenes/fondo-pelicula.jpg);
 }
 
 .descripcion{

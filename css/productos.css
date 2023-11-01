@@ -1,3 +1,7 @@
+body{
+    background: url(../imagenes/fondo_productos.jpg);
+}
+
 div{
      display: flexbox;
 } 
