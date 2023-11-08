@@ -1,3 +1,19 @@
+#nav1{
+    background: linear-gradient(pink , rgb(235, 144, 231) , rgb(167, 167, 236)) ;
+}
+
+#nav2{
+    background: linear-gradient(rgb(139, 153, 236) , rgb(101, 197, 241) , rgb(104, 231, 236)) ;
+}
+
+#nav3{
+    background: rgba(128, 127, 127, 0.438) ;
+}
+
+#nav4{
+    background: linear-gradient(rgb(236, 235, 139) , rgb(241, 192, 101) , rgb(236, 135, 104)) ;
+}
+
 .com1{
     font-size: xx-large;
     animation: infinite alternate reverse;
@@ -6,7 +22,7 @@
 
 .img1{
     top: 20%;
-    left: 2%;
+    left: 7%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -14,7 +30,7 @@
 
 .img2{
     top: 20%;
-    left: 22%;
+    left: 30%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -22,7 +38,7 @@
 
 .img3{
     top: 20%;
-    left: 42%;
+    left: 50%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -30,7 +46,7 @@
 
 .img4{
     top: 20%;
-    left: 62%;
+    left: 70%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -38,7 +54,7 @@
 
 .img5{
     top: 60%;
-    left: 2%;
+    left: 7%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -46,7 +62,7 @@
 
 .img6{
     top: 60%;
-    left: 22%;
+    left: 30%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -54,7 +70,7 @@
 
 .img7{
     top: 60%;
-    left: 42%;
+    left: 50%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -62,7 +78,7 @@
 
 .img8{
     top: 60%;
-    left: 62%;
+    left: 70%;
     height: 340px;
     width: 265px;
     margin: 2px;
@@ -89,4 +105,8 @@
 }
 .carousel-control-next-icon{
     background-color: rgba(112, 112, 112, 0.389);
+}
+
+.img_principal{
+    margin-left: 130px;
 }
