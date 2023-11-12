@@ -13,11 +13,17 @@
 #nav4{
     background: linear-gradient(rgb(236, 235, 139) , rgb(241, 192, 101) , rgb(236, 135, 104)) ;
 }
-
 .com1{
     font-size: xx-large;
     animation: infinite alternate reverse;
-    margin-left: 19px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.com2{
+    font-size: xx-large;
+    animation: infinite alternate reverse;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .img1{

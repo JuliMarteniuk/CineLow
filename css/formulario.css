@@ -1,5 +1,6 @@
 .formulario{
-
     margin-left: 60px;
-    
+}
+#nav{
+    background: linear-gradient(rgb(236, 235, 139) , rgb(241, 192, 101) , rgb(236, 135, 104)) ;
 }

@@ -8,11 +8,23 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px; 
-    margin-right: 5%;
+    margin-right: 50%;
 }
 .combos{
     margin-top: 10px;
 }
-/* .unaFila{
-
-} */
+.fila2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    margin-right: 5%;
+}
+.fila1{
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    margin-right: 60px;
+}
+.fila3{
+    margin-right: 12%;
+}

@@ -1,5 +1,5 @@
-body {
-    background: linear-gradient(to bottom, #f34fa1, #f6ed79);
+#nav{
+    background: linear-gradient(pink , rgb(235, 144, 231) , rgb(167, 167, 236)) ;
 }
 
 body h1{
