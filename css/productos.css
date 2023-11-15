@@ -6,6 +6,16 @@ div{
      display: flexbox;
 } 
 
+.prod{
+    /* position: absolute; */
+    background-color: rgba(240, 248, 255, 0);
+    margin-top: 20px;
+    margin-left: 350px;
+    border-radius: 10px;
+    width: 700px;
+    height: auto;
+}
+
 .texto{
     font-size: x-large;
     font-family: fantasy;
@@ -33,12 +43,14 @@ div{
     font-size: medium;
     font-family: fantasy;
     margin-bottom: 20px;
+    margin-left: 48px;
 }
 
 .pochoclochico{
     width: 130px;
     height: 160px;
     margin-top: 23px;
+    margin-left: 50px;
 }
 .chico{
     font-size: medium;
@@ -46,6 +58,7 @@ div{
     margin-bottom: 20px;
     text-align: center;
     margin-top: 5px;
+    margin-left: 90px;
 }
 
 .gaseosagrande{

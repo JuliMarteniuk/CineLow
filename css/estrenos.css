@@ -1,12 +1,4 @@
-
-/*body {
-    background: linear-gradient(to bottom, #d768ff, #fa86c0);
-}*/
-#nav{
-    background: linear-gradient(rgb(139, 153, 236) , rgb(101, 197, 241) , rgb(104, 231, 236)) ;
-}
-
-.divboton{
+.boton{
     display: flex;
 }
 body h1{

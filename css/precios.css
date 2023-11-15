@@ -1,14 +1,28 @@
+body{
+    background-color: black;
+}
+
+.div{
+    background-color: antiquewhite;
+    width: 945px;
+    height: 800px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
 .precios_comida{
     display: flex;
     flex-wrap: wrap;
     padding: 0 50px;
 }
 .fila{
-    width: 100%;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px; 
-    margin-right: 50%;
+    margin-right: 50px;
 }
 .combos{
     margin-top: 10px;
@@ -18,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px; 
-    margin-right: 5%;
+    margin-right: 20%;
 }
 .fila1{
     margin-top: 15px;
@@ -26,5 +40,5 @@
     margin-right: 60px;
 }
 .fila3{
-    margin-right: 12%;
+    margin-left: 50px;
 }

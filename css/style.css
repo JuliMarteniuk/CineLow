@@ -3,16 +3,26 @@
 }
 
 #nav2{
-    background: linear-gradient(rgb(139, 153, 236) , rgb(101, 197, 241) , rgb(104, 231, 236)) ;
+    background: rgba(128, 127, 127, 0.568) ;
 }
 
 #nav3{
-    background: rgba(128, 127, 127, 0.438) ;
+    background: linear-gradient(rgb(248, 55, 200), rgb(110, 212, 247)) ;
 }
 
 #nav4{
+    background: linear-gradient(rgb(139, 153, 236) , rgb(101, 197, 241) , rgb(104, 231, 236))
+}
+
+#nav5{
+    background: linear-gradient(pink , rgb(235, 144, 231) , rgb(208, 167, 236)) ;
+}
+
+#nav6{
     background: linear-gradient(rgb(236, 235, 139) , rgb(241, 192, 101) , rgb(236, 135, 104)) ;
 }
+
+
 .com1{
     font-size: xx-large;
     animation: infinite alternate reverse;
